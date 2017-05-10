@@ -1,0 +1,202 @@
+﻿빌드 시작: 2017-04-14 오후 7:05:34
+     1>2 노드의 "D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\KRicohMTPDll\KRicohMTPDll.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KRICOHMTPDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt KRicohMTP.cpp
+         KRicohMTP.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(35): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(35): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(35): error C2803: 'operator =='에는 클래스 형식의 정식 매개 변수가 적어도 하나는 있어야 합니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(35): error C2805: 이항 'operator =='에 매개 변수가 너무 적습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(35): error C2065: 'pkeyOne' : 선언되지 않은 식별자입니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(35): error C2228: '.pid' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'unknown-type' 형식입니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(35): error C2065: 'pkeyOther' : 선언되지 않은 식별자입니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(35): error C2228: '.fmtid' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 'unknown-type' 형식입니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(35): error C2660: 'IsEqualGUID' : 함수는 1개의 매개 변수를 사용하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(36): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(36): error C2143: 구문 오류 : ','이(가) '&' 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(36): error C2803: 'operator !='에는 클래스 형식의 정식 매개 변수가 적어도 하나는 있어야 합니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(36): error C2805: 이항 'operator !='에 매개 변수가 너무 적습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(36): error C2065: 'pkeyOne' : 선언되지 않은 식별자입니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\propkeydef.h(36): error C2065: 'pkeyOther' : 선언되지 않은 식별자입니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(648): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(648): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_NULL' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(660): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(660): error C2146: 구문 오류 : ';'이(가) 'WPD_OBJECT_CONTENT_TYPE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(664): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(664): error C2146: 구문 오류 : ';'이(가) 'WPD_OBJECT_REFERENCES' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(668): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(668): error C2146: 구문 오류 : ';'이(가) 'WPD_OBJECT_CONTAINER_FUNCTIONAL_OBJECT_ID' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(672): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(672): error C2146: 구문 오류 : ';'이(가) 'WPD_OBJECT_GENERATE_THUMBNAIL_FROM_RESOURCE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(676): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(676): error C2146: 구문 오류 : ';'이(가) 'WPD_OBJECT_HINT_LOCATION_DISPLAY_NAME' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(688): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(688): error C2146: 구문 오류 : ';'이(가) 'WPD_OBJECT_SUPPORTED_UNITS' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(700): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(700): error C2146: 구문 오류 : ';'이(가) 'WPD_FUNCTIONAL_OBJECT_CATEGORY' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(712): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(712): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_TYPE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(716): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(716): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_FILE_SYSTEM_TYPE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(720): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(720): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_CAPACITY' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(724): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(724): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_FREE_SPACE_IN_BYTES' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(728): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(728): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_FREE_SPACE_IN_OBJECTS' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(732): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(732): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_DESCRIPTION' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(736): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(736): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_SERIAL_NUMBER' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(740): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(740): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_MAX_OBJECT_SIZE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(744): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(744): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_CAPACITY_IN_OBJECTS' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(748): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(748): error C2146: 구문 오류 : ';'이(가) 'WPD_STORAGE_ACCESS_CAPABILITY' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(760): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(760): error C2146: 구문 오류 : ';'이(가) 'WPD_NETWORK_ASSOCIATION_HOST_NETWORK_IDENTIFIERS' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(764): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(764): error C2146: 구문 오류 : ';'이(가) 'WPD_NETWORK_ASSOCIATION_X509V3SEQUENCE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(776): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(776): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_CAPTURE_RESOLUTION' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(780): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(780): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_CAPTURE_FORMAT' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(784): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(784): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_COMPRESSION_SETTING' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(788): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(788): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_WHITE_BALANCE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(792): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(792): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_RGB_GAIN' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(796): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(796): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_FNUMBER' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(800): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(800): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_FOCAL_LENGTH' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(804): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(804): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_FOCUS_DISTANCE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(808): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(808): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_FOCUS_MODE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(812): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(812): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_EXPOSURE_METERING_MODE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(816): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(816): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_FLASH_MODE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(820): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(820): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_EXPOSURE_TIME' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(824): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(824): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_EXPOSURE_PROGRAM_MODE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(828): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(828): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_EXPOSURE_INDEX' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(832): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(832): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_EXPOSURE_BIAS_COMPENSATION' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(836): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(836): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_CAPTURE_DELAY' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(840): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(840): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_CAPTURE_MODE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(844): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(844): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_CONTRAST' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(848): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(848): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_SHARPNESS' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(852): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(852): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_DIGITAL_ZOOM' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(856): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(856): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_EFFECT_MODE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(860): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(860): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_BURST_NUMBER' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(864): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(864): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_BURST_INTERVAL' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(868): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(868): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_TIMELAPSE_NUMBER' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(872): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(872): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_TIMELAPSE_INTERVAL' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(876): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(876): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_FOCUS_METERING_MODE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(880): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(880): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_UPLOAD_URL' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(884): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(884): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_ARTIST' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(888): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(888): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_CAMERA_MODEL' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(892): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(892): error C2146: 구문 오류 : ';'이(가) 'WPD_STILL_IMAGE_CAMERA_MANUFACTURER' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(904): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(904): error C2146: 구문 오류 : ';'이(가) 'WPD_RENDERING_INFORMATION_PROFILES' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(908): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(908): error C2146: 구문 오류 : ';'이(가) 'WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(912): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(912): error C2146: 구문 오류 : ';'이(가) 'WPD_RENDERING_INFORMATION_PROFILE_ENTRY_CREATABLE_RESOURCES' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(924): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(924): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_NAME' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(928): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(928): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_MAJOR_VERSION' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(932): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(932): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_MINOR_VERSION' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(936): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(936): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_REVISION' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(940): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(940): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_WMDRM_APPLICATION_PRIVATE_KEY' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(944): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(944): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_WMDRM_APPLICATION_CERTIFICATE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(948): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(948): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_SECURITY_QUALITY_OF_SERVICE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(952): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(952): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_DESIRED_ACCESS' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(956): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(956): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_SHARE_MODE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(960): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(960): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_EVENT_COOKIE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(964): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(964): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_MINIMUM_RESULTS_BUFFER_SIZE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(968): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(968): error C2146: 구문 오류 : ';'이(가) 'WPD_CLIENT_MANUAL_CLOSE_ON_DISCONNECT' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(980): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(980): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_FORM' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(984): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(984): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_CAN_READ' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(988): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(988): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_CAN_WRITE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(992): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(992): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_CAN_DELETE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(996): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(996): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_DEFAULT_VALUE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1000): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1000): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_FAST_PROPERTY' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1004): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1004): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_RANGE_MIN' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1008): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1008): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_RANGE_MAX' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1012): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1012): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_RANGE_STEP' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1016): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1016): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_ENUMERATION_ELEMENTS' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1020): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1020): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_REGULAR_EXPRESSION' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1024): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1024): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_MAX_SIZE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1036): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1036): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_NAME' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1040): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1040): error C2146: 구문 오류 : ';'이(가) 'WPD_PROPERTY_ATTRIBUTE_VARTYPE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1052): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1052): error C2146: 구문 오류 : ';'이(가) 'WPD_CLASS_EXTENSION_OPTIONS_SUPPORTED_CONTENT_TYPES' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1056): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1056): error C2146: 구문 오류 : ';'이(가) 'WPD_CLASS_EXTENSION_OPTIONS_DONT_REGISTER_WPD_DEVICE_INTERFACE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1060): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1060): error C2146: 구문 오류 : ';'이(가) 'WPD_CLASS_EXTENSION_OPTIONS_REGISTER_WPD_PRIVATE_DEVICE_INTERFACE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1072): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1072): error C2146: 구문 오류 : ';'이(가) 'WPD_CLASS_EXTENSION_OPTIONS_MULTITRANSPORT_MODE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1076): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1076): error C2146: 구문 오류 : ';'이(가) 'WPD_CLASS_EXTENSION_OPTIONS_DEVICE_IDENTIFICATION_VALUES' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1080): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1080): error C2146: 구문 오류 : ';'이(가) 'WPD_CLASS_EXTENSION_OPTIONS_TRANSPORT_BANDWIDTH' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1092): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1092): error C2146: 구문 오류 : ';'이(가) 'WPD_CLASS_EXTENSION_OPTIONS_SILENCE_AUTOPLAY' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1104): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1104): error C2146: 구문 오류 : ';'이(가) 'WPD_RESOURCE_ATTRIBUTE_TOTAL_SIZE' 식별자 앞에 없습니다.
+     1>c:\program files (x86)\windows kits\8.1\include\um\portabledevice.h(1104): fatal error C1003: 오류 수가 100개를 초과했습니다. 컴파일을 중지합니다.
+     1>"D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\KRicohMTPDll\KRicohMTPDll.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.46

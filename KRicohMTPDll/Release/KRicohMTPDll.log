@@ -1,0 +1,17 @@
+﻿빌드 시작: 2017-04-14 오후 7:06:09
+     1>2 노드의 "D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\KRicohMTPDll\KRicohMTPDll.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KRICOHMTPDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt KRicohMTP.cpp
+         KRicohMTP.cpp
+     1>d:\yoon\robot\videostream\camera_360\kricohmtpdll\kricohmtpdll\KRicohMTP.h(49): warning C4251: 'KRicohMTP::device' : class 'Microsoft::WRL::ComPtr<IPortableDevice>'에서는 class 'KRicohMTP'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\Release\KRicohMTPDll.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\Release\KRicohMTPDll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\Release\KRicohMTPDll.lib" /MACHINE:X86 /SAFESEH /DLL Release\KRicohMTP.obj
+            D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\Release\KRicohMTPDll.lib 라이브러리 및 D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\Release\KRicohMTPDll.exp 개체를 생성하고 있습니다.
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         KRicohMTPDll.vcxproj -> D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\Release\KRicohMTPDll.dll
+     1>"D:\Yoon\Robot\VideoStream\Camera_360\KRicohMTPDll\KRicohMTPDll\KRicohMTPDll.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.22
